@@ -8,8 +8,11 @@ Studies have shown that high sexual activity Human Papillloma Virus (HPV) is one
 
 The presence of hormones in oral contraceptives, having many children, and smoking increases the risk of developing cervical cancer, particularly in women infected with HPV. Also, individuals with weak immune systems eg. HIV/AIDS, have a high risk of HPV.
 
+
 By leveraging maching learning and AI, cervical cancer death rate can be reduced with early detection and diagnosis
 Extreme gradient boosting algorithm (Xgboost) offers solid robustness and computational efficiency.
+Boosting works by building a model from the training data, then the second model is built based on the mistakes (residuals) of the first model. The algorithm repeats until the maximum number of models have been created to provide better predictions. 
+
 
 ## Project Goals
 - This project aims to build and train an XGBoost model to predict cervical cancer in 859 patients.
