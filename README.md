@@ -48,26 +48,26 @@ Data Sources
 
 ## Conclusion
 model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 5, n_estimators = 10)
-* The XGBoost model achieved a 98% accuracy on the training data.
-* The XGBoost model achieved a 93.02% accuracy score on testing data.
-* The XGBoost model achieved 96% on precision and recall for class zero (0), which is great but 50%
+* The XGBoost model achieved a 98% accuracy on the training data
+* 93.02% accuracy score on testing data
+* 96% on precision and recall for class zero (0), which is great but 50%
 precision and recall for class 1 which is not good, and therefore can be improved.
-*  The XGBoost model achieved an overall 93% accuracy score
+* The XGBoost model achieved an overall 93% accuracy score
 * The model correctly classified 77 samples (True Negative) and 3 samples (True Positive), however it 
 misclassified 3 samples (False Positive) and 3 samples (False Negative).
 
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/629317f6-4b78-4e6a-8e2e-1ae2bb9eda37)
 
 
-After the Model was retrianied with 10X the number of estimators and tree depth
+After the Model was retrainied with 10X the number of estimators and tree depth
 model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 50, n_estimators = 100)
 
-* It achieved a 98.8% accuracy on the training data.
-* a 94% accuracy score on testing data.
-* Remained at 96% predicton score for class 0, but increased to a 57% precision score for class 1
+* The retrained achieved a 98.8% accuracy on the training data
+* a 94% accuracy score on testing data
+* it remained at 96% predicton score for class 0, but increased to a 57% precision score for class 1
 * It increased to 98% recall score for class 0 and decreased to a 36% recall score for class 1
-* And achieved a slightly higher accuracy score of 94%
-*  The model correctly classified 160 samples (True Negative) and 4 samples (True Positive), however it 
+* achieved a slightly higher accuracy score of 94%
+* The model correctly classified 160 samples (True Negative) and 4 samples (True Positive), however it 
 misclassified 7 samples (False Positive) and 4 samples (False Negative).
 
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/2c4c103e-48e8-44fa-817f-13de6a3d101c)
