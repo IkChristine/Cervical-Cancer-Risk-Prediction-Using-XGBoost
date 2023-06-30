@@ -59,10 +59,10 @@ misclassified 3 samples (False Positive) and 3 samples (False Negative).
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/629317f6-4b78-4e6a-8e2e-1ae2bb9eda37)
 
 
-After the Model was retrainied with 10X the number of estimators and tree depth
+After the model was retrainied with 10X the number of estimators and tree depth
 model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 50, n_estimators = 100)
 
-* The retrained achieved a 98.8% accuracy on the training data
+* The retrained model achieved a 98.8% accuracy on the training data
 * a 94% accuracy score on testing data
 * it remained at 96% predicton score for class 0, but increased to a 57% precision score for class 1
 * It increased to 98% recall score for class 0 and decreased to a 36% recall score for class 1
@@ -73,4 +73,4 @@ misclassified 7 samples (False Positive) and 4 samples (False Negative).
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/2c4c103e-48e8-44fa-817f-13de6a3d101c)
 
 
-## The xgboost alogrithm performacnce was enhanced by changing the split to 0.2, increasing the dept of the tree to 50 and the number of estimators to 100.
+## The xgboost alogrithm performance was enhanced by changing the split to 0.2, increasing the depth of the tree to 50, and the number of estimators to 100.
