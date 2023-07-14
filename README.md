@@ -76,4 +76,4 @@ After the model was retrainied with 10X the number of estimators and tree depth
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/2c4c103e-48e8-44fa-817f-13de6a3d101c)
 
 
-## The xgboost alogrithm performance was enhanced by changing the split to 0.2, increasing the depth of the tree to 50, and the number of estimators to 100.
+## The XGBoost alogrithm performance was enhanced by changing the split to 0.2, and increasing the depth of the tree to 50, and the number of estimators to 100.
