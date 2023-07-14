@@ -12,7 +12,7 @@ Studies have shown that high sexual activity Human Papillloma Virus (HPV) is one
 - By leveraging maching learning and AI, cervical cancer death rate can be reduced with early detection and diagnosis.
 - <p>&nbsp;</p>
 
-### XGBoost
+### XGBoost Algorithm
 Extreme gradient boosting algorithm (Xgboost) offers solid robustness and computational efficiency.
 XGBoost is a supervised learning algorithm that implements the gradient boosted trees alogorithm. Boosting works by building a model from the training data, then the second model is built based on the mistakes (residuals) of the first model. The algorithm repeats until the maximum number of models have been created to provide better predictions. 
 <p>&nbsp;</p>
