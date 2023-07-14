@@ -67,7 +67,7 @@ After the model was retrainied with 10X the number of estimators and tree depth
         model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 50, n_estimators = 100)
 
 * The retrained model achieved a 98.8% accuracy on the training data and a 94% accuracy score on testing data
-* The model remained at 96% predicton score for class 0, but increased to a 57% precision score for class 1
+* The model remained at 96% predicton score for class 0 (No cancer detected), but increased to a 57% precision score for class 1 (Cancer detected)
 * The model increased to 98% recall score for class 0 and decreased to a 36% recall score for class 1
 * The Model achieved a slightly higher accuracy score of 94%
 * The model correctly classified 160 samples (True Negative) and 4 samples (True Positive),
