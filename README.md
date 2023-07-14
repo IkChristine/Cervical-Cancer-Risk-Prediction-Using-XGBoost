@@ -40,9 +40,7 @@ Input features will be passed to into the XGBoost model to predict the biospsy o
 <p>&nbsp;</p>
 
 # #
-
-
-Data Sources
+## Data Sources
 - https://www.kaggle.com/loveall/cervical-cancer-risk-classification
 - https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29
 
