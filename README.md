@@ -51,7 +51,7 @@ Input features will be passed to into the XGBoost model to predict the biospsy o
 <p>&nbsp;</p>
 
 ## Conclusion
-      <p>model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 5, n_estimators = 10)
+      model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 5, n_estimators = 10)
 * The XGBoost model achieved a 98% accuracy on the training data and 93.02% accuracy score on testing data.
 * The XGBoost model achieved a 96% on precision and recall for class zero 0 (No cancer detected), which is great but 50% precision
   and recall for class 1 (Cancer detected) which is not good, and therefore can be improved.
@@ -64,7 +64,7 @@ Input features will be passed to into the XGBoost model to predict the biospsy o
 
 After the model was retrainied with 10X the number of estimators and tree depth
 
-       <p>model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 50, n_estimators = 100)
+        model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 50, n_estimators = 100)
 
 * The retrained model achieved a 98.8% accuracy on the training data and a 94% accuracy score on testing data
 * The model remained at 96% predicton score for class 0, but increased to a 57% precision score for class 1
