@@ -1,21 +1,26 @@
 # Cervical-Cancer-Risk-Prediction-Using-XGBoost
 Extreme gradient boosting algorithm (Xgboost) 
+<div class="alert alert-block alert-info" style="margin-top: 20px">
 
 ## Introduction
 
-Cervical cancer kills about 4,000 women in the U.S. and about 300,000 women worldwide. Due to increased medical screening, cervical cancer death rate has been reduced by 74% between 1955 to 1992. 
+- Cervical cancer kills about 4,000 women in the U.S. and about 300,000 women worldwide. Due to increased medical screening, cervical cancer death rate has been reduced by 74% between 1955 to 1992. 
 Studies have shown that high sexual activity Human Papillloma Virus (HPV) is one of the key factors that increases the risk of having cervical cancer. 
 
-The presence of hormones in oral contraceptives, having many children, and smoking increases the risk of developing cervical cancer, particularly in women infected with HPV. Also, individuals with weak immune systems eg. HIV/AIDS, have a high risk of HPV.
+- The presence of hormones in oral contraceptives, having many children, and smoking increases the risk of developing cervical cancer, particularly in women infected with HPV. Also, individuals with weak immune systems eg. HIV/AIDS, have a high risk of HPV.
 
+- By leveraging maching learning and AI, cervical cancer death rate can be reduced with early detection and diagnosis.
+- <p>&nbsp;</p>
 
-By leveraging maching learning and AI, cervical cancer death rate can be reduced with early detection and diagnosis
+### XGBoost
 Extreme gradient boosting algorithm (Xgboost) offers solid robustness and computational efficiency.
 XGBoost is a supervised learning algorithm that implements the gradient boosted trees alogorithm. Boosting works by building a model from the training data, then the second model is built based on the mistakes (residuals) of the first model. The algorithm repeats until the maximum number of models have been created to provide better predictions. 
+<p>&nbsp;</p>
 
 
 ## Project Goals
 - This project aims to build and train an XGBoost model to predict cervical cancer in 859 patients.
+- <p>&nbsp;</p>
 
 # Dataset
 - The dataset was obtained from Hospital Universitario de Caracas in Caracas, Venezuele and it contains demographic information, habits, and historical medical records of 858 patients.
@@ -32,6 +37,7 @@ Input features will be passed to into the XGBoost model to predict the biospsy o
 
 - Target variable
 1. Biospy Status (Y/N)
+<p>&nbsp;</p>
 
 # #
 
@@ -44,7 +50,7 @@ Data Sources
 
 ![image](https://github.com/IkChristine/Cervical-Cancer-Risk-Prediction-Using-XGBoost/assets/104997783/6457f38d-d6c4-4bfd-94f0-77b4e26159a4)
 
-
+<p>&nbsp;</p>
 
 ## Conclusion
 model = xgb.XGBClassifier(learning_rate = 0.1, max_depth = 5, n_estimators = 10)
