@@ -20,7 +20,7 @@ XGBoost is a supervised learning algorithm that implements the gradient boosted 
 
 ## Project Goals
 - This project aims to build and train an XGBoost model to predict cervical cancer in 859 patients.
-- <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 # Dataset
 - The dataset was obtained from Hospital Universitario de Caracas in Caracas, Venezuele and it contains demographic information, habits, and historical medical records of 858 patients.
