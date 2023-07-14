@@ -10,7 +10,7 @@ Studies have shown that high sexual activity Human Papillloma Virus (HPV) is one
 - The presence of hormones in oral contraceptives, having many children, and smoking increases the risk of developing cervical cancer, particularly in women infected with HPV. Also, individuals with weak immune systems eg. HIV/AIDS, have a high risk of HPV.
 
 - By leveraging maching learning and AI, cervical cancer death rate can be reduced with early detection and diagnosis.
-- <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### XGBoost Algorithm
 Extreme gradient boosting algorithm (Xgboost) offers solid robustness and computational efficiency.
